@@ -14,7 +14,7 @@
     "test:a11y": "vue-cli-service test:unit --testPathPattern=a11y"
   },
   "engines": {
-    "node": "16.x"
+    "node": "14.x"
   },
   "dependencies": {
     "@babel/core": "^7.0.0-0",
