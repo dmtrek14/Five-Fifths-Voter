@@ -11,7 +11,7 @@
     "format:diff": "prettier --list-different \"src/**/*.{js,vue,scss}\"",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "test:a11y": "vie-cli-service test:a11y"
+    "test:a11y": "vue-cli-service test:unit --testPathPattern=a11y"
   },
   "engines": {
     "node": "16.x"
